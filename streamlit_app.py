@@ -6,7 +6,7 @@ from openai import AssistantEventHandler
 
 
 #assistant_id = "asst_XYgHWyKYN1KxNWfcN9EMdn2Q"        #replace with your own assistant
-client = OpenAI(api_key)   #Replace with your own API
+client = OpenAI(st.secrets["api_key"])   #Replace with your own API
 
 
 st.title("💬 AeroGPT")
